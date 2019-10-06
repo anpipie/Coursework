@@ -1,0 +1,1 @@
+This repository contains coursework I have done in fullstack developer program in the Tampere University of Applied Sciences.
