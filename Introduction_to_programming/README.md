@@ -1,2 +1,2 @@
-# Course: Introduction to programming & JavaScript
-Various coursework assignments. Node.js 
+# Course: Introduction to programming
+Various coursework assignments in Node.js 
