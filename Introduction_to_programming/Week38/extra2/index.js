@@ -3,11 +3,12 @@
 
 const rl = require('readline-sync')
 const fetch = require('node-fetch')
+const apikey = '' // add your apikey here
 
 function main () {
   console.log('Current weather data')
   const city = rl.question('Give name of the city: \n')
-  const path = 'http://api.openweathermap.org/data/2.5/weather?q=' + city + '&APPID=af0ca12802044e5753a994072b6b727a&units=metric'
+  const path = 'http://api.openweathermap.org/data/2.5/weather?q=' + city + '&APPID=' + apikey + '&units=metric'
 
   fetch(path)
     .then(res => res.json())
