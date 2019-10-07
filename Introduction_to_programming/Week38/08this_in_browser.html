@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Sivu</title>
+</head>
+<body>
+  <script>
+      // a) By using for in iterate all the keys and values of window - object
+      for (let key in this) {
+          console.log(key + " : " + this[key])
+      }
+
+      // b) Create new global variable and see that it is a property of window - object. 
+      // So print the global variable using the window
+      var a = "jotain"
+      console.log(window.a)
+
+      // c) Try creating global variable with var keyword and without it. 
+      // When using latter, you can delete that property from window! Try it out.
+      b = "jotain myös"
+      console.log(window.b)
+      delete window.a
+      delete window.b
+      console.log (window.a)
+      console.log(window.b)
+
+      // d) Create new construction function for Circle. Circle has radius: var c = new Circle(4); 
+      // console.log(c.radius). What happens if you do not use the new - keyword? Where is radius stored?
+
+      function Circle (radius){
+          this.radius = radius
+      }
+      var c = new Circle(4)
+      console.log(c.radius) // prints 4
+      console.log(window.radius) // prints undefined
+      var d = Circle(4)
+      console.log(window.radius) // prints 4. -> radius is stored as global variable
+
+
+  </script>
+</body>
+</html>
