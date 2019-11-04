@@ -1,0 +1,1 @@
+Exercises using fetch and Star Wars API and Promise all.

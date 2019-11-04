@@ -1,0 +1,1 @@
+Yksinkertaisimmillaan ohjelma kirjoitetaan suoritettavaksi yhdessä säikeessä (thread) synkronisesti ja lineaarisesti. Synkronisuudella tarkoitetaan, että ohjelmalausekkeet suoritetaan yksi toisensa jälkeen, niin kuin ne esiintyvät lähdekoodissa.

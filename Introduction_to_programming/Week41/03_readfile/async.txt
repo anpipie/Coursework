@@ -1,0 +1,1 @@
+Asynkronisessa ohjelmoinnissa ohjelmalausekkeiden suoritus ei asynkronisia operaatioita käyttäessä mene siinä järjestyksessä kuin ne esiintyvät lähdekoodissa. Asynkroninen ohjelmointi mahdollistaa sen, että yksisäikeinen ohjelma voi suorittaa useita operaatioita samanaikaisesti.
